@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!--Link CSS-->
+    <link rel = "stylesheet" href="calculator.css">
+    <!--Icon-->
+    <link rel = "icon" href = "calc-image.webp">
+</head>
+<body>
+    <section>
+        <div class = "container">
+
+            <!--Main Panel-->
+            <div class = "panel">
+                <p class='result'>0</p>
+            </div>
+            <!--Buttons-->
+            <table>
+                <tr>
+                    <td><button id="ac" class ='toprow'>AC</button></td>
+                    <td><button id="sign" class ='toprow'>+/-</button></td>
+                    <td><button id="percentage" class ='toprow'>%</button></td>
+                    <td><button id="division" class ='operator'>/</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="seven" class ='number'>7</button></td>
+                    <td><button id="eight" class ='number'>8</button></td>
+                    <td><button id="nine" class ='number'>9</button></td>   
+                    <td><button id="multiply" class ='operator'>*</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="four" class ='number'>4</button></td>
+                    <td><button id="five" class ='number'>5</button></td>
+                    <td><button id="six" class ='number'>6</button></td>
+                    <td><button id="subtract" class ='operator'>-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="one" class ='number'>1</button></td>
+                    <td><button id="two" class ='number'>2</button></td>
+                    <td><button id="three" class ='number'>3</button></td>
+                    <td><button id="add" class ='operator'>+</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="zero" class ='number'><p id="zero">0</p></button></td>
+                    <td><button id="decimal" class ='decimal'>.</button></td>
+                    <td><button id="equals" class ='operator'>=</button></td>
+                </tr>
+
+            </table>
+        </div>
+    </section>
+
+        <!--JQuery to allow page modification without a reload-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src = "calculator.js"></script>
+</body>
+</html>
